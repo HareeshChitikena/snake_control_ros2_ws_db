@@ -1,0 +1,232 @@
+[0.897s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.897s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6cce09bc10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6cce087100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6cce087100>>)
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.936s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hari22/ros2_ws_db'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'ignore'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'ignore_ament_install'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extensions ['colcon_pkg']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'colcon_pkg'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extensions ['colcon_meta']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'colcon_meta'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'ros'
+[0.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_cpp_examples' with type 'ros.ament_cmake' and name 'arduinobot_cpp_examples'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ros'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_description' with type 'ros.ament_cmake' and name 'arduinobot_description'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'ros'
+[0.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_py_examples' with type 'ros.ament_python' and name 'arduinobot_py_examples'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extensions ['ignore', 'ignore_ament_install']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extension 'ignore'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extension 'ignore_ament_install'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extensions ['colcon_pkg']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extension 'colcon_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extensions ['colcon_meta']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/hari_snake_package) by extension 'ros'
+[0.949s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hari_snake_package' with type 'ros.ament_python' and name 'hari_snake_package'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extension 'ignore'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extension 'ignore_ament_install'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extensions ['colcon_pkg']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extension 'colcon_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extensions ['colcon_meta']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extension 'colcon_meta'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extensions ['ros']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/snake_cpp_py_pkg) by extension 'ros'
+[0.950s] DEBUG:colcon.colcon_core.package_identification:Package 'src/snake_cpp_py_pkg' with type 'ros.ament_cmake' and name 'snake_cpp_py_pkg'
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.058s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/hari22/ros2_ws_db/install
+[1.078s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[1.080s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.159s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.160s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hari22/ros2_ws_db/build/arduinobot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples', 'merge_install': False, 'path': '/home/hari22/ros2_ws_db/src/arduinobot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_args' from command line to 'None'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_target' from command line to 'None'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.174s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.174s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hari22/ros2_ws_db/build/arduinobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hari22/ros2_ws_db/install/arduinobot_description', 'merge_install': False, 'path': '/home/hari22/ros2_ws_db/src/arduinobot_description', 'symlink_install': False, 'test_result_base': None}
+[1.187s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_args' from command line to 'None'
+[1.187s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_target' from command line to 'None'
+[1.187s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.187s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.187s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.188s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.188s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hari22/ros2_ws_db/build/arduinobot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hari22/ros2_ws_db/install/arduinobot_py_examples', 'merge_install': False, 'path': '/home/hari22/ros2_ws_db/src/arduinobot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'cmake_target' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'hari_snake_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.201s] DEBUG:colcon.colcon_core.verb:Building package 'hari_snake_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hari22/ros2_ws_db/build/hari_snake_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hari22/ros2_ws_db/install/hari_snake_package', 'merge_install': False, 'path': '/home/hari22/ros2_ws_db/src/hari_snake_package', 'symlink_install': False, 'test_result_base': None}
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'cmake_target' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'snake_cpp_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.215s] DEBUG:colcon.colcon_core.verb:Building package 'snake_cpp_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hari22/ros2_ws_db/install/snake_cpp_py_pkg', 'merge_install': False, 'path': '/home/hari22/ros2_ws_db/src/snake_cpp_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.228s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hari22/ros2_ws_db/src/arduinobot_cpp_examples' with build type 'ament_cmake'
+[1.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hari22/ros2_ws_db/src/arduinobot_cpp_examples'
+[1.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hari22/ros2_ws_db/src/arduinobot_description' with build type 'ament_cmake'
+[1.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hari22/ros2_ws_db/src/arduinobot_description'
+[1.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.361s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hari22/ros2_ws_db/src/arduinobot_py_examples' with build type 'ament_python'
+[1.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_py_examples', 'ament_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hari22/ros2_ws_db/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hari22/ros2_ws_db/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hari22/ros2_ws_db/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.sh'
+[1.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.434s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hari22/ros2_ws_db/src/hari_snake_package' with build type 'ament_python'
+[1.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('hari_snake_package', 'ament_prefix_path')
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hari22/ros2_ws_db/install/hari_snake_package/share/hari_snake_package/hook/ament_prefix_path.ps1'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hari22/ros2_ws_db/install/hari_snake_package/share/hari_snake_package/hook/ament_prefix_path.dsv'
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hari22/ros2_ws_db/install/hari_snake_package/share/hari_snake_package/hook/ament_prefix_path.sh'
+[1.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hari22/ros2_ws_db/src/snake_cpp_py_pkg' with build type 'ament_cmake'
+[1.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hari22/ros2_ws_db/src/snake_cpp_py_pkg'
+[1.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hari22/ros2_ws_db/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/hari22/ros2_ws_db/build/arduinobot_cpp_examples -- -j16 -l16
+[1.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hari22/ros2_ws_db/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/hari22/ros2_ws_db/build/arduinobot_description -- -j16 -l16
+[1.793s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hari22/ros2_ws_db/src/arduinobot_py_examples'
+[1.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.046s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hari22/ros2_ws_db/src/hari_snake_package'
+[2.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.060s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/hari22/ros2_ws_db/build/snake_cpp_py_pkg -- -j16 -l16
+[2.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hari22/ros2_ws_db/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/hari22/ros2_ws_db/build/arduinobot_description -- -j16 -l16
+[2.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hari22/ros2_ws_db/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/hari22/ros2_ws_db/build/arduinobot_cpp_examples -- -j16 -l16
+[2.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_cpp_examples)
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples' for CMake module files
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples' for CMake config files
+[2.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_cpp_examples', 'cmake_prefix_path')
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.ps1'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.dsv'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.sh'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/bin'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/lib/pkgconfig/arduinobot_cpp_examples.pc'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/lib/python3.10/site-packages'
+[2.195s] Level 1:colcon.colcon_core.environment:checking '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/bin'
+[2.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.ps1'
+[2.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.sh'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.bash'
+[2.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.zsh'
+[2.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hari22/ros2_ws_db/install/arduinobot_cpp_examples/share/colcon-core/packages/arduinobot_cpp_examples)
+[2.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hari22/ros2_ws_db/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/hari22/ros2_ws_db/build/arduinobot_description
+[2.882s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.883s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.904s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.912s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hari22/ros2_ws_db/install/local_setup.ps1'
+[2.927s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hari22/ros2_ws_db/install/_local_setup_util_ps1.py'
+[2.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hari22/ros2_ws_db/install/setup.ps1'
+[2.942s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hari22/ros2_ws_db/install/local_setup.sh'
+[2.943s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hari22/ros2_ws_db/install/_local_setup_util_sh.py'
+[2.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hari22/ros2_ws_db/install/setup.sh'
+[2.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hari22/ros2_ws_db/install/local_setup.bash'
+[2.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hari22/ros2_ws_db/install/setup.bash'
+[2.973s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hari22/ros2_ws_db/install/local_setup.zsh'
+[2.973s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hari22/ros2_ws_db/install/setup.zsh'

@@ -9,6 +9,7 @@
     
   <xacro:include filename="snake_robot_phy_model.xacro" />
 
+  
   <!-- <xacro:include filename="camera.xacro" />
 
   <xacro:include filename="snake_ros2_control.xacro" />

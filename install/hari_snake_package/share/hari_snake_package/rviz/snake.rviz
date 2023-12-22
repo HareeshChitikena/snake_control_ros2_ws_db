@@ -73,6 +73,10 @@ Visualization Manager: # 可视化管理
           Value: true
         link_10:
           Value: true
+        camera_link:
+          Value: true
+        camera_link_optical:
+          Value: true
       Marker Scale: 0.300000012
       Name: TF # 坐标系
       Show Arrows: true
@@ -89,7 +93,9 @@ Visualization Manager: # 可视化管理
                       link_7:
                         link_8: 
                           link_9:
-                            link_10: {}
+                            link_10: 
+                              camera_link:
+                                camera_link_optical: {}
       Update Interval: 0
       Value: true
     - Alpha: 1
@@ -161,6 +167,16 @@ Visualization Manager: # 可视化管理
           Show Trail: false
           Value: true
         link_10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_link_optical:
           Alpha: 1
           Show Axes: false
           Show Trail: false

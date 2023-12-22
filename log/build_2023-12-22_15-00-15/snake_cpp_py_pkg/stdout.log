@@ -1,0 +1,50 @@
+Built target ament_cmake_python_copy_snake_cpp_py_pkg
+running egg_info
+writing snake_cpp_py_pkg.egg-info/PKG-INFO
+writing dependency_links to snake_cpp_py_pkg.egg-info/dependency_links.txt
+writing top-level names to snake_cpp_py_pkg.egg-info/top_level.txt
+reading manifest file 'snake_cpp_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'snake_cpp_py_pkg.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_snake_cpp_py_pkg_egg
+-- Install configuration: ""
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/lib/snake_cpp_py_pkg/publisher_node.py
+-- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/lib/snake_cpp_py_pkg/ui_simulation_bridge.py
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/config
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/config/my_controllers.yaml
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description/inertial_macros.xacro
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description/snake_robot_core.xacro
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description/materials.xacro
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description/ros2_control.xacro
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/launch
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/launch/launch_sim.launch.py
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/launch/rsp.launch.py
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/worlds
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/worlds/empty.world
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/rviz
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/rviz/snake.rviz
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/pythonpath.sh
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/pythonpath.dsv
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info
+-- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg/__init__.py
+Listing '/home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg'...
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/snake_cpp_py_pkg
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/snake_cpp_py_pkg
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/path.sh
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/path.dsv
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/local_setup.bash
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/local_setup.sh
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/local_setup.zsh
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/local_setup.dsv
+-- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/package.dsv
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/ament_index/resource_index/packages/snake_cpp_py_pkg
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/cmake/snake_cpp_py_pkgConfig.cmake
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/cmake/snake_cpp_py_pkgConfig-version.cmake
+-- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/package.xml

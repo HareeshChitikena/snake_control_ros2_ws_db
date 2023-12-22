@@ -53,7 +53,8 @@
       <child link="link_2"/>
       <origin xyz="${link_length} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
-      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>   
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->
     </joint>
     
     <link name="link_2">
@@ -80,7 +81,8 @@
       <child link="link_3"/>
       <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
-      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>    
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->  
     </joint>
     
     <link name="link_3">
@@ -109,6 +111,7 @@
       <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
       <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->
     </joint>
     
     <link name="link_4">
@@ -136,6 +139,7 @@
       <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
       <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->
     </joint>
     
     <link name="link_5">
@@ -163,6 +167,7 @@
       <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
       <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->
     </joint>
 
     <link name="link_6">
@@ -190,6 +195,7 @@
       <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
       <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->
     </joint>
 
     <link name="link_7">
@@ -217,6 +223,7 @@
       <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
       <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->
     </joint>
 
     <link name="link_8">
@@ -244,6 +251,7 @@
       <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
       <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->
     </joint>
 
     <link name="link_9">
@@ -271,6 +279,7 @@
       <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
       <axis xyz = "0 0 1"/>
       <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+      <!-- <dynamics damping="60.0" friction="4.0" />    -->
     </joint>
 
     <link name="link_10">

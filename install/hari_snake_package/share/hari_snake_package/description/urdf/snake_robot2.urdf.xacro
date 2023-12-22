@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="snake_robot">
+    <!-- This is an snake robot URDF -->
+    <!-- Starting with three links -->
+    <!-- xacro will include all the contents of example_include.xacro file -->
+    <!-- To use xacro we need to write as below -->
+    <!-- <xacro:include filename="example_include.xacro" /> -->
+
+  <!-- The created added, and called the gazebo_config_control.xacro -->
+	<!-- The created added, and called the bumper_config.xacro -->
+
+  <!-- <xacro:include filename="$(find hari_snake_package)/description/urdf/macro_bumper_config.xacro" /> -->
+  <!-- <xacro:include filename="$(find hari_snake_package)/description/urdf/macro_camera.xacro" /> -->
+  <!-- <xacro:include filename="$(find hari_snake_package)/description/urdf/macro_inertial.xacro" /> -->
+	<xacro:include filename="$(find hari_snake_package)/description/urdf/macro_internal_config.xacro" />
+  <!-- <xacro:include filename="$(find hari_snake_package)/description/urdf/macro_lidar.xacro" /> -->
+	<xacro:include filename="$(find hari_snake_package)/description/urdf/macro_transmission.xacro" />
+	<xacro:include filename="$(find hari_snake_package)/description/urdf/macro.gazebo_config_control.xacro" />
+	
+  <xacro:include filename="link_properties_include.xacro" />
+    
+  <xacro:include filename="snake_robot_phy_model.xacro" />
+
+  <!-- the following lines instantiates all the info described in the files:
+		 macro.gazebo_config_control.xacro, transmissions,  internal_config, macro.bumper_config  by david-->
+  <xacro:snake_robot_gazebo_camera/>
+  <xacro:snake_robot_gazebo_config_ctr/> 
+  <xacro:snake_robot_gazebo_transmission />
+  <xacro:snake_robot_gazebo_config_coeff />
+  <!-- <xacro:bumper_ctr_sensor /> -->
+
+  <!-- <xacro:include filename="camera.xacro" />
+
+  <xacro:include filename="snake_ros2_control.xacro" />
+
+  <xacro:include filename="snake_robot_transmission.xacro" /> -->
+
+<!--######################################################################-->    
+</robot>

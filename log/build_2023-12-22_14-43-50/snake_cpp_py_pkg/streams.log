@@ -1,0 +1,54 @@
+[0.591s] Invoking command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/hari22/ros2_ws_db/build/snake_cpp_py_pkg -- -j16 -l16
+[0.633s] Built target ament_cmake_python_copy_snake_cpp_py_pkg
+[0.841s] running egg_info
+[0.842s] writing snake_cpp_py_pkg.egg-info/PKG-INFO
+[0.842s] writing dependency_links to snake_cpp_py_pkg.egg-info/dependency_links.txt
+[0.842s] writing top-level names to snake_cpp_py_pkg.egg-info/top_level.txt
+[0.843s] reading manifest file 'snake_cpp_py_pkg.egg-info/SOURCES.txt'
+[0.844s] writing manifest file 'snake_cpp_py_pkg.egg-info/SOURCES.txt'
+[0.865s] Built target ament_cmake_python_build_snake_cpp_py_pkg_egg
+[0.884s] Invoked command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/hari22/ros2_ws_db/build/snake_cpp_py_pkg -- -j16 -l16
+[0.901s] Invoking command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/hari22/ros2_ws_db/build/snake_cpp_py_pkg
+[0.907s] -- Install configuration: ""
+[0.907s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/lib/snake_cpp_py_pkg/publisher_node.py
+[0.907s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/lib/snake_cpp_py_pkg/ui_simulation_bridge.py
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/config
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/config/my_controllers.yaml
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description/inertial_macros.xacro
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description/snake_robot_core.xacro
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description/materials.xacro
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/description/ros2_control.xacro
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/launch
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/launch/launch_sim.launch.py
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/launch/rsp.launch.py
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/worlds
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/worlds/empty.world
+[0.908s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/rviz
+[0.909s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/rviz/snake.rviz
+[0.909s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/pythonpath.sh
+[0.909s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/pythonpath.dsv
+[0.909s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info
+[0.909s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[0.909s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.909s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.909s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[0.909s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg
+[0.909s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg/__init__.py
+[0.932s] Listing '/home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/local/lib/python3.10/dist-packages/snake_cpp_py_pkg'...
+[0.934s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/ament_index/resource_index/package_run_dependencies/snake_cpp_py_pkg
+[0.935s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/ament_index/resource_index/parent_prefix_path/snake_cpp_py_pkg
+[0.935s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/ament_prefix_path.sh
+[0.935s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/ament_prefix_path.dsv
+[0.935s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/path.sh
+[0.935s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/environment/path.dsv
+[0.935s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/local_setup.bash
+[0.935s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/local_setup.sh
+[0.936s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/local_setup.zsh
+[0.936s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/local_setup.dsv
+[0.936s] -- Installing: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/package.dsv
+[0.936s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/ament_index/resource_index/packages/snake_cpp_py_pkg
+[0.936s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/cmake/snake_cpp_py_pkgConfig.cmake
+[0.936s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/cmake/snake_cpp_py_pkgConfig-version.cmake
+[0.936s] -- Up-to-date: /home/hari22/ros2_ws_db/install/snake_cpp_py_pkg/share/snake_cpp_py_pkg/package.xml
+[0.938s] Invoked command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/hari22/ros2_ws_db/build/snake_cpp_py_pkg

@@ -1,0 +1,9 @@
+[0.581s] Invoking command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hari22/ros2_ws_db/install/hari_snake_package:/home/hari22/ros2_ws_db/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/hari22/ros2_ws_db/build/snake_cpp_py_pkg -- -j16 -l16
+[0.621s] Built target ament_cmake_python_copy_snake_cpp_py_pkg
+[0.821s] running egg_info
+[0.822s] writing snake_cpp_py_pkg.egg-info/PKG-INFO
+[0.822s] writing dependency_links to snake_cpp_py_pkg.egg-info/dependency_links.txt
+[0.822s] writing top-level names to snake_cpp_py_pkg.egg-info/top_level.txt
+[0.824s] reading manifest file 'snake_cpp_py_pkg.egg-info/SOURCES.txt'
+[0.824s] writing manifest file 'snake_cpp_py_pkg.egg-info/SOURCES.txt'
+[0.842s] Built target ament_cmake_python_build_snake_cpp_py_pkg_egg

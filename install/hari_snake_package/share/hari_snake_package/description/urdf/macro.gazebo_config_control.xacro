@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+	<xacro:macro name="snake_robot_gazebo_config_ctr">
+
+		<xacro:property name="dict" value="${load_yaml($(find hari_snake_package)/config/simple_controller.yaml)}"/>
+
+		<!-- I need this for ROS2 control -->
+		<!-- I create this file, it was NOT available in the original Doosan repo -->
+
+		<gazebo reference="link_1">
+			<material>Gazebo/Orange</material>        
+			<mu1>0.01</mu1> <!-- Coulomb friction (mu1) is static friction  Nm or Ns/m.-->
+			<mu2>0.05</mu2> <!-- viscous friction (mu2) is dynamic friction  Nm or Ns/m.-->   
+		</gazebo>
+	
+		<gazebo reference="link_2">
+			<material>Gazebo/Black</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                   
+		</gazebo>
+	
+		<gazebo reference="link_3">
+			<material>Gazebo/Orange</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                       
+		</gazebo>
+	
+		<gazebo reference="link_4">
+			<material>Gazebo/Black</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                           
+		</gazebo>
+	
+		<gazebo reference="link_5">
+			<material>Gazebo/Orange</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                         
+		</gazebo>
+	
+		<gazebo reference="link_6">
+			<material>Gazebo/Black</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                        
+		</gazebo>
+	
+		<gazebo reference="link_7">
+			<material>Gazebo/Orange</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                       
+		</gazebo>
+	
+		<gazebo reference="link_8">
+			<material>Gazebo/Black</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                    
+		</gazebo>
+	
+		<gazebo reference="link_9">
+			<material>Gazebo/Orange</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                   
+		</gazebo>
+	
+		<gazebo reference="link_10">
+			<material>Gazebo/Black</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                      
+		</gazebo>
+	
+		<gazebo reference="camera_link">
+			<material>Gazebo/Red</material>        
+			<mu1>0.01</mu1>
+			<mu2>0.05</mu2>                      
+		</gazebo>
+	
+
+		<ros2_control name="GazeboSystem" type="system">
+			<hardware>
+				<plugin>gazebo_ros2_control/GazeboSystem</plugin>
+	    	</hardware>
+
+	    	<joint name="joint_1">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+	    	<joint name="joint_2">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+	    	<joint name="joint_3">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+	    	<joint name="joint_4">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+
+	    	<joint name="joint_5">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+
+	    	<joint name="joint_6">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+            <joint name="joint_7">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+            <joint name="joint_8">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+            <joint name="joint_9">
+	    		<command_interface name="position">
+	    			<param name="min">-3.14</param>
+	    			<param name="max">3.14</param>
+	    		</command_interface>
+	    		<state_interface name="position"/>
+	    		<state_interface name="velocity"/>
+	    		<state_interface name="effort"/>
+	    	</joint>
+
+	  	</ros2_control>
+
+		<gazebo>
+			<plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        		<!--<robot_sim_type>gazebo_ros2_control/DefaultRobotHWSim</robot_sim_type> -->
+				<robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
+				<parameters>$(find hari_snake_package)/config/simple_controller.yaml</parameters>
+				<odometry_frame>odom</odometry_frame> 
+				<!-- The odometry frame is a reference frame used to represent the 
+					robot's pose (position and orientation) over time-->
+				<robot_base_frame>base_link</robot_base_frame> 
+				<!-- Specifies the name of the robot's base frame. 
+					The base frame is a reference frame attached to the robot's base, 
+					typically representing the center of mass or a designated point 
+					on the robot.-->
+				<publish_odom>true</publish_odom>
+				<publish_odom_tf>true</publish_odom_tf>
+				<update_rate>30.0</update_rate>
+		    </plugin>
+		</gazebo>
+
+	</xacro:macro>
+</robot>

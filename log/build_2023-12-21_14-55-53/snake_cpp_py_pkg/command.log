@@ -1,0 +1,2 @@
+Invoking command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg': /usr/bin/cmake /home/hari22/ros2_ws_db/src/snake_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/hari22/ros2_ws_db/install/snake_cpp_py_pkg
+Invoked command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg' returned '1': /usr/bin/cmake /home/hari22/ros2_ws_db/src/snake_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/hari22/ros2_ws_db/install/snake_cpp_py_pkg

@@ -1,0 +1,62 @@
+[0.575s] Invoking command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg': /usr/bin/cmake /home/hari22/ros2_ws_db/src/snake_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/hari22/ros2_ws_db/install/snake_cpp_py_pkg
+[0.639s] -- The C compiler identification is GNU 11.4.0
+[0.697s] -- The CXX compiler identification is GNU 11.4.0
+[0.703s] -- Detecting C compiler ABI info
+[0.755s] -- Detecting C compiler ABI info - done
+[0.762s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.762s] -- Detecting C compile features
+[0.763s] -- Detecting C compile features - done
+[0.765s] -- Detecting CXX compiler ABI info
+[0.826s] -- Detecting CXX compiler ABI info - done
+[0.834s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.834s] -- Detecting CXX compile features
+[0.835s] -- Detecting CXX compile features - done
+[0.837s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.964s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.036s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.065s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.069s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.075s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.165s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.167s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.232s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.250s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.282s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.289s] -- Looking for pthread.h
+[1.338s] -- Looking for pthread.h - found
+[1.338s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.385s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.386s] -- Found Threads: TRUE  
+[1.566s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[1.633s] Error parsing '/home/hari22/ros2_ws_db/src/snake_cpp_py_pkg/package.xml':
+[1.667s] Traceback (most recent call last):
+[1.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.667s]     main()
+[1.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.667s]     raise e
+[1.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.667s]     package = parse_package_string(
+[1.667s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.667s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.667s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/hari22/ros2_ws_db/src/snake_cpp_py_pkg/package.xml':
+[1.667s] Error(s):
+[1.667s] - The generic dependency on 'rclcpp' is redundant with: exec_depend
+[1.668s] - The generic dependency on 'rclpy' is redundant with: exec_depend
+[1.680s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.681s]   execute_process(/usr/bin/python3.10
+[1.681s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.681s]   /home/hari22/ros2_ws_db/src/snake_cpp_py_pkg/package.xml
+[1.681s]   /home/hari22/ros2_ws_db/build/snake_cpp_py_pkg/ament_cmake_core/package.cmake)
+[1.681s]   returned error code 1
+[1.681s] Call Stack (most recent call first):
+[1.681s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.681s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+[1.681s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[1.681s]   CMakeLists.txt:28 (ament_python_install_package)
+[1.681s] 
+[1.681s] [0m
+[1.681s] -- Configuring incomplete, errors occurred!
+[1.681s] See also "/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg/CMakeFiles/CMakeOutput.log".
+[1.693s] Invoked command in '/home/hari22/ros2_ws_db/build/snake_cpp_py_pkg' returned '1': /usr/bin/cmake /home/hari22/ros2_ws_db/src/snake_cpp_py_pkg -DCMAKE_INSTALL_PREFIX=/home/hari22/ros2_ws_db/install/snake_cpp_py_pkg

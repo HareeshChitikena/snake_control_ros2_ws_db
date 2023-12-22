@@ -1,0 +1,8 @@
+Built target ament_cmake_python_copy_snake_cpp_py_pkg
+running egg_info
+writing snake_cpp_py_pkg.egg-info/PKG-INFO
+writing dependency_links to snake_cpp_py_pkg.egg-info/dependency_links.txt
+writing top-level names to snake_cpp_py_pkg.egg-info/top_level.txt
+reading manifest file 'snake_cpp_py_pkg.egg-info/SOURCES.txt'
+writing manifest file 'snake_cpp_py_pkg.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_snake_cpp_py_pkg_egg

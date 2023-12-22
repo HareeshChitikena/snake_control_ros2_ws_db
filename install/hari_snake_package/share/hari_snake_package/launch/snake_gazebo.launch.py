@@ -25,6 +25,7 @@ def generate_launch_description():
     # robot_model = 'a0912'
     # robot_model = 'm1013'
     robot_model = 'snake_robot'
+    #robot_model = 'snake_robot2'
 
     xacro_file = get_package_share_directory('hari_snake_package') + '/description' + '/urdf/' + robot_model + '.urdf.xacro'
 
