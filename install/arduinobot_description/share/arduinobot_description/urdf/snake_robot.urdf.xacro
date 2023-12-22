@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="snake_robot">
+    <!-- This is an snake robot URDF -->
+    <!-- Starting with three links -->
+    <!-- xacro will include all the contents of example_include.xacro file -->
+    <!-- To use xacro we need to write as below -->
+    <!-- <xacro:include filename="example_include.xacro" /> -->
+  <xacro:include filename="link_properties_include.xacro" />
+    
+  <xacro:include filename="snake_robot_phy_model.xacro" />
+
+  <!-- <xacro:include filename="camera.xacro" />
+
+  <xacro:include filename="snake_ros2_control.xacro" />
+
+  <xacro:include filename="snake_robot_transmission.xacro" /> -->
+
+<!--######################################################################-->    
+</robot>

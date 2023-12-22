@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- This first link called "world" is empty -->
+    <!-- <link name="world"></link> -->
+    
+    <!-- A simple fixed joint from our empty world link, to our base. -->
+    <!-- The base origin is offset from the world origin -->    
+    
+    <xacro:property name="link_length" value = "0.14" />
+    <xacro:property name="link_width" value = "0.05" />
+    <xacro:property name="link_height" value = "0.05" />
+    <xacro:property name="link_mass" value = "1" />
+    <xacro:property name="next_link_with_gap" value = "0.10" />  <!-- next link starting point (0.14/2)+0.03 = 0.1 -->
+    <xacro:property name="next_link_cg_with_gap" value = "0.17" /> <!-- next link CG from previous link CG (0.14)+0.03 = 0.17 -->
+    
+    <!-- <joint name="joint_0" type="floating">
+      <parent link="world"/>
+      <child link="link_1"/>
+      <origin xyz="0.00 0.0 0.0" rpy= "0 0 0" />      
+    </joint> -->
+
+    <!-- Robot is oriented along x-axis --> 
+    <link name="base_link"/>
+    
+    <link name="link_1">
+      <visual>
+        <origin xyz="${link_length/2} 0 ${link_height/2}" rpy="0 0 0" /> <!-- CG posistion of link_1 --> 
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+         <origin xyz="${link_length/2} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${link_length/2} 0 ${link_height/2}" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+    
+    <joint name="joint_1" type="revolute">
+      <parent link="link_1"/>
+      <child link="link_2"/>
+      <origin xyz="${link_length} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+    
+    <link name="link_2">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="orange"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+          
+    <joint name="joint_2" type="revolute">
+      <parent link="link_2"/>
+      <child link="link_3"/>
+      <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+    
+    <link name="link_3">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+    
+    
+    <joint name="joint_3" type="revolute">
+      <parent link="link_3"/>
+      <child link="link_4"/>
+      <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+    
+    <link name="link_4">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="orange"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+    
+    <joint name="joint_4" type="revolute">
+      <parent link="link_4"/>
+      <child link="link_5"/>
+      <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+    
+    <link name="link_5">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+
+    <joint name="joint_5" type="revolute">
+      <parent link="link_5"/>
+      <child link="link_6"/>
+      <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+
+    <link name="link_6">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="orange"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+
+    <joint name="joint_6" type="revolute">
+      <parent link="link_6"/>
+      <child link="link_7"/>
+      <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+
+    <link name="link_7">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+
+    <joint name="joint_7" type="revolute">
+      <parent link="link_7"/>
+      <child link="link_8"/>
+      <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+
+    <link name="link_8">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="orange"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+
+    <joint name="joint_8" type="revolute">
+      <parent link="link_8"/>
+      <child link="link_9"/>
+      <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+
+    <link name="link_9">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="blue"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+
+    <joint name="joint_9" type="revolute">
+      <parent link="link_9"/>
+      <child link="link_10"/>
+      <origin xyz="${next_link_cg_with_gap} 0.0 0.0" rpy= "0 0 0" />
+      <axis xyz = "0 0 1"/>
+      <limit lower="${-pi/3}" upper ="${pi/3}" velocity = "100" effort= "100"/>      
+    </joint>
+
+    <link name="link_10">
+      <visual>
+        <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0" />
+        <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+        <material name="orange"/>
+      </visual>
+      <collision>
+         <origin xyz="${next_link_with_gap} 0 ${link_height/2}" rpy="0 0 0"/>
+         <geometry>
+           <box size="${link_length} ${link_width} ${link_height}"/>
+        </geometry>
+      </collision>
+      <xacro:inertial_box mass="${link_mass}" x="${link_length}" y="${link_width}" z="${link_height}">
+      	    <origin xyz="${next_link_with_gap} 0 0" rpy="0 0 0" />
+      </xacro:inertial_box>
+    </link>
+
+</robot>

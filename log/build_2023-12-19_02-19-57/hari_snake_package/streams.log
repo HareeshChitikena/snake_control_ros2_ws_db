@@ -1,0 +1,23 @@
+[0.880s] Invoking command in '/home/hari22/ros2_ws_db/src/hari_snake_package': PYTHONPATH=/home/hari22/ros2_ws_db/build/hari_snake_package/prefix_override:/home/hari22/ros2_ws_db/install/hari_snake_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hari_snake_package build --build-base /home/hari22/ros2_ws_db/build/hari_snake_package/build install --record /home/hari22/ros2_ws_db/build/hari_snake_package/install.log --single-version-externally-managed
+[1.064s] running egg_info
+[1.064s] writing ../../build/hari_snake_package/hari_snake_package.egg-info/PKG-INFO
+[1.064s] writing dependency_links to ../../build/hari_snake_package/hari_snake_package.egg-info/dependency_links.txt
+[1.064s] writing entry points to ../../build/hari_snake_package/hari_snake_package.egg-info/entry_points.txt
+[1.064s] writing requirements to ../../build/hari_snake_package/hari_snake_package.egg-info/requires.txt
+[1.064s] writing top-level names to ../../build/hari_snake_package/hari_snake_package.egg-info/top_level.txt
+[1.066s] reading manifest file '../../build/hari_snake_package/hari_snake_package.egg-info/SOURCES.txt'
+[1.067s] writing manifest file '../../build/hari_snake_package/hari_snake_package.egg-info/SOURCES.txt'
+[1.067s] running build
+[1.067s] running build_py
+[1.067s] running install
+[1.067s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.067s]   warnings.warn(
+[1.067s] running install_lib
+[1.068s] running install_data
+[1.069s] copying description/urdf/snake_robot_phy_model.xacro -> /home/hari22/ros2_ws_db/install/hari_snake_package/share/hari_snake_package/description/urdf
+[1.069s] running install_egg_info
+[1.070s] removing '/home/hari22/ros2_ws_db/install/hari_snake_package/lib/python3.10/site-packages/hari_snake_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.071s] Copying ../../build/hari_snake_package/hari_snake_package.egg-info to /home/hari22/ros2_ws_db/install/hari_snake_package/lib/python3.10/site-packages/hari_snake_package-0.0.0-py3.10.egg-info
+[1.071s] running install_scripts
+[1.086s] writing list of installed files to '/home/hari22/ros2_ws_db/build/hari_snake_package/install.log'
+[1.102s] Invoked command in '/home/hari22/ros2_ws_db/src/hari_snake_package' returned '0': PYTHONPATH=/home/hari22/ros2_ws_db/build/hari_snake_package/prefix_override:/home/hari22/ros2_ws_db/install/hari_snake_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hari_snake_package build --build-base /home/hari22/ros2_ws_db/build/hari_snake_package/build install --record /home/hari22/ros2_ws_db/build/hari_snake_package/install.log --single-version-externally-managed

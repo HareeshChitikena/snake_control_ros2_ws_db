@@ -1,0 +1,23 @@
+[0.817s] Invoking command in '/home/hari22/ros2_ws_db/src/arduinobot_py_examples': PYTHONPATH=/home/hari22/ros2_ws_db/build/arduinobot_py_examples/prefix_override:/home/hari22/ros2_ws_db/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/hari22/ros2_ws_db/build/arduinobot_py_examples/build install --record /home/hari22/ros2_ws_db/build/arduinobot_py_examples/install.log --single-version-externally-managed
+[0.993s] running egg_info
+[0.994s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[0.994s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[0.994s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[0.995s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[0.995s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[0.996s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.996s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.996s] running build
+[0.996s] running build_py
+[0.997s] running install
+[0.997s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.997s]   warnings.warn(
+[0.997s] running install_lib
+[0.998s] running install_data
+[0.998s] running install_egg_info
+[0.999s] removing '/home/hari22/ros2_ws_db/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.999s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/hari22/ros2_ws_db/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[1.000s] running install_scripts
+[1.014s] Installing simple_publisher script to /home/hari22/ros2_ws_db/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.014s] writing list of installed files to '/home/hari22/ros2_ws_db/build/arduinobot_py_examples/install.log'
+[1.028s] Invoked command in '/home/hari22/ros2_ws_db/src/arduinobot_py_examples' returned '0': PYTHONPATH=/home/hari22/ros2_ws_db/build/arduinobot_py_examples/prefix_override:/home/hari22/ros2_ws_db/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/hari22/ros2_ws_db/build/arduinobot_py_examples/build install --record /home/hari22/ros2_ws_db/build/arduinobot_py_examples/install.log --single-version-externally-managed
