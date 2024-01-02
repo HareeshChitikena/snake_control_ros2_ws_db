@@ -24,7 +24,7 @@ class 	EffortPublisher(Node):
         self.shutdownnodeafter = 200 # in seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.shutdownnode = self.create_timer(self.shutdownnodeafter, self.shutdown_callback)
-        self.Effort_publisher = self.create_publisher(Float64MultiArray,"/effort_controllers/commands", 10)
+        self.Effort_publisher = self.create_publisher(Float64MultiArray,"/effort_controllers1/commands", 10)
         self.subscription = self.create_subscription(JointState, 'joint_states', self.PID_callback, 10)
         self.params       = self.create_subscription(String, 'snake_robot_params', self.paramters_from_ui, 10)
         self.dir_path       = os.path.expanduser('~/dev_ws/snake_robo/scripts/logs/')
@@ -32,7 +32,7 @@ class 	EffortPublisher(Node):
         self.subscription
         self.timer_timer = 0 
         self.default_kd = 0.8
-        self.default_kp = 1#0.42 
+        self.default_kp = 1 #0.42 
         self.default_a = 65
         self.default_w = 0.45
         self.default_d = 0.78
